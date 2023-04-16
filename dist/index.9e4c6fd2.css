@@ -1,0 +1,162 @@
+body {
+  background: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+input {
+  width: 100%;
+  color: #000;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  color: #000;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.react-from-scratch-pokemon-finder {
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.logo {
+  width: 70px;
+}
+
+main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+}
+
+.poke-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.poke-name {
+  text-align: center;
+  color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  top: -30px;
+}
+
+.not-found {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+.loader-container {
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 8px solid #f3f3f3;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: 1s linear infinite spin;
+}
+
+.loader-text {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.poke-history {
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px 0;
+  display: grid;
+}
+
+.history-item {
+  width: 100%;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 5px;
+  outline: 1px solid #ddd;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.history-item:hover {
+  background: #ddd;
+}
+
+.history-img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "parcel serve index.html --port 3000",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.4"
+  }
+}
